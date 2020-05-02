@@ -1,0 +1,26 @@
+body{
+    background-color: #000000;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3em;
+    color: hsl(0, 0%, 20%);
+    display: grid;
+    height: 100vh;
+}
+
+.cover{
+    margin: auto;
+    height: 50vh;
+    width: 50vw;
+    border: 5px solid hsl(0, 0%, 13%);
+
+    background-image: url(/img/oliver-sjostrom-Mc-r-wjnAac-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    display: grid;
+}
+
+.name{
+    margin: auto;
+    height: 3em;
+}
